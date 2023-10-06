@@ -1,27 +1,16 @@
-# React + TypeScript + Vite
+Os itens do projeto são renderizados a partir de uma api simples criada exclusivamente para o projeto.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A api encontra-se no arquivo db.json
+Para rodar o projeto é necessário:
+ - Node instalado e atualizado;
+ - Criar um servidor para a API, no terminal da pasta do projeto utilizar o comando : json-server --watch db.json
+ - Projeto criado com vite, para iniciar selecione o terminal na pasta do projeto e utilize do comando: npm run dev
 
-Currently, two official plugins are available:
+O projeto teve como objetivo aprender mais sobre reactjs e praticar criação e navegação de rotas.
+Tecnologias
+- ReactJS
+- TypeScript
+- CSS puro
+- LIB Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Sinta-se a vontade para fazer download e praticar reproduzindo o projeto caso tenha interesse e para fazer qualquer sugestão de boas práticas, dicas que possam me ajudar a me tornar um desenvolvedor melhor.
